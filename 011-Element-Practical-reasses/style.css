@@ -1,0 +1,94 @@
+//this contains information in how the data looks on the site.
+//the background is a hex number which generates a specific colour
+body {
+	background: #e7cdde;
+	display: flex;
+//align and height are obvious but also setup in a way for mobile users
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 550px;
+	border: 2px solid #ccc;
+	padding: 33px;
+	background: rgb(213, 250, 250);
+	border-radius: 12px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 42px;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 90%;
+	padding: 8px;
+	margin: 8px auto;
+	border-radius: 6px;
+}
+label {
+	color: #888;
+	font-size: 17px;
+	padding: 8px;
+}
+
+button {
+	float: right;
+	background: rgb(255, 255, 255);
+	padding: 8px 13px;
+	color: rgb(0, 0, 0);
+	border-radius: 5px;
+	margin-right: 10px;
+	border: 5px, rgb(0, 0, 0);
+}
+
+//The hover effects kicks in when the cursor is 'hovering' over a specific link or href
+
+button:hover{
+	opacity: .7;
+}
+
+//Below is the style for the .error and .success classes
+
+.error {
+   	background: #F2DEDE;
+   	color: #A94442;
+   	border-radius: 6px;   						width: 90%;
+   	padding: 8px;
+	margin: 20px auto;
+}
+
+.success {
+   	background: #e7cdde;
+   	color: #40754C;
+   	padding: 8px;
+   	width: 90%;
+   	border-radius: 6px;						padding: 8px;
+   	margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 13px;
+	display: inline-block;
+	padding: 8px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
